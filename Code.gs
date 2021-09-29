@@ -10,7 +10,7 @@ if (grade == "Grade 1"){
   var academicyear = e.values[3];
 }
 var emailadmission = "admission@mutiaraharapan.sch.id";
-var apiKey = 'xnd_production_e3nYyzyZtJCrnoowK6BsvwL0dzbklIHO9r20qEfXafB12IFj9JQHcEtaVqES';
+var apiKey = '';
   var Basic = Utilities.base64Encode(apiKey + ':0');
   var header = {
    "Authorization" : "Basic " + Basic
