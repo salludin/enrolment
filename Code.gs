@@ -163,7 +163,7 @@ sheet.getRange(row,23).setNumberFormat("#,##0").setValue(no);
   BodyTemplate.link = link;
   BodyTemplate.level = "Upper Secondary";
   var HtmlforBody = BodyTemplate.evaluate().getContent();
-} else if (level == 'Primary Development Class') {
+} else if (level == 'Primary Development Class (Special Education Program)') {
   var no = 1250000 + 3650;
 sheet.getRange(row,23).setNumberFormat("#,##0").setValue(no);
  var biaya = sheet.getRange(row, 23).getDisplayValue();
@@ -200,7 +200,7 @@ sheet.getRange(row,23).setNumberFormat("#,##0").setValue(no);
   BodyTemplate.link = link;
   BodyTemplate.level = "Primary Development Class";
   var HtmlforBody = BodyTemplate.evaluate().getContent();
-} else if (level == 'Lower Secondary Development Class') {
+} else if (level == 'Lower Secondary Development Class (Special Education Program)') {
   var no = 1250000 + 3650;
 sheet.getRange(row,23).setNumberFormat("#,##0").setValue(no);
  var biaya = sheet.getRange(row, 23).getDisplayValue();
